@@ -1,6 +1,9 @@
 # hx-googlecast-externs
 #### Haxe/JavaScript externs for Google Cast Receiver, Sender, Game SDK.
 
+<img src="https://cloud.githubusercontent.com/assets/576184/9329463/0559a0fe-45b2-11e5-8724-3a606419ecbf.png" width=100 />
+<img src="https://cloud.githubusercontent.com/assets/576184/9329443/e3475fec-45b1-11e5-870f-e6f1e1393f27.png"  width=300 />
+
 _Targeted at Cast version v1_
 
 # Updates
