@@ -19,7 +19,7 @@ class ChromeCast
 	inline static function get_isAvailable() return untyped __js__("chrome.cast.isAvailable");
 	
 	/// listener should be: function(loaded:Bool, errorInfo:String):Void
-	inline public static function boot(injectScript:Bool = false, listener:Bool->String->Void) 
+	inline public static function boot(listener:Bool->String->Void) 
 	{
 		Reflect.setProperty(js.Browser.window, '__onGCastApiAvailable', listener);
 	}
