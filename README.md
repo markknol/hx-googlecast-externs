@@ -26,8 +26,8 @@ To determine if the API is available and initialize it, you can provide the call
 ```haxe
 ChromeCast.boot(function(loaded:Bool, errorInfo:String):Void
 {
-  trace("Init cast version : " + ChromeCast.VERSION);
-  if (loaded)
+  trace('ChromeCast: version=${ChromeCast.VERSION}');
+  trace('ChromeCast: loaded=$loaded, errorInfo=$errorInfo');
 });
 ```
 #### Requesting session
