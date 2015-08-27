@@ -48,7 +48,7 @@ From this point you are good to go and follow the docs.
 #### Include the _cast_receiver.js_ `<script>` tag
 
 ```html
-<script src="//www.gstatic.com/cast/sdk/libs/receiver/2.0.0/cast_receiver.js"></script>
+<script src="//www.gstatic.com/cast/sdk/libs/receiver/1.0.0/cast_receiver.js"></script>
 ```
 #### Initialization
 
