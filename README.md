@@ -10,7 +10,7 @@ _Targeted at Cast version v1_
 
 # Setup _Chrome Sender_ application
 
-> **Tip:** Make sure you read this first https://developers.google.com/cast/docs/chrome_sender
+> :book: **Tip:** Make sure you read this first https://developers.google.com/cast/docs/chrome_sender
 
 #### Include the _cast_sender.js_ `<script>` tag
 Add the script tag to your HTML page
@@ -43,7 +43,7 @@ From this point you are good to go and follow the docs.
 
 # Setup _Custom Receiver_ application
 
-> **Tip** Make sure you read this first: https://developers.google.com/cast/docs/custom_receiver
+> :book: **Tip:** Make sure you read this first: https://developers.google.com/cast/docs/custom_receiver
 
 #### Include the _cast_receiver.js_ `<script>` tag
 
@@ -62,7 +62,7 @@ From this point you are good to go and follow the docs.
 
 # Setup _Game Manager API_
 
-> **Tip** Make sure you read this first: https://developers.google.com/cast/docs/gaming
+> :book: **Tip:** Make sure you read this first: https://developers.google.com/cast/docs/gaming
 
 Follow this order of initialization:
 
