@@ -21,7 +21,7 @@ Add the script tag to your HTML page
 #### Initialization
 Instead of using `window['__onGCastApiAvailable'] = callback` you can use `ChromeCast.boot(callback)`.
 
-To determine if the API is available and initialize it, you can provide the callback function, window['__onGCastApiAvailable'] before the Cast API loads. It is invoked with loaded == true when the API loads, or with errorInfo when load fails (e.g. when no extension is discovered).
+To determine if the API is available and initialize it, you can provide the callback function before the Cast API loads. It is invoked with `loaded == true` when the API loads, or with `errorInfo` when load fails (e.g. when no extension is discovered).
 
 ```haxe
 ChromeCast.boot(function(loaded:Bool, errorInfo:String):Void
